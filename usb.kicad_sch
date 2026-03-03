@@ -2189,6 +2189,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C37616412"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A7"
 			(uuid "bb397346-11de-43f9-9a0d-f44c5eec3920")
 		)
@@ -2369,6 +2378,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2687116"
+			(at 184.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7b508457-6e7b-46f6-b3e5-c5203d4b147d")
 		)
@@ -2467,7 +2485,7 @@
 		(at 212.09 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2600,7 +2618,7 @@
 		(at 212.09 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2708,6 +2726,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 87.63 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,6 +3010,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2687116"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea90b2f5-2e28-414f-bdfe-ed396eb4f4c8")
 		)
@@ -3189,6 +3225,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
 			(at 147.32 105.41 0)
 			(effects
 				(font
