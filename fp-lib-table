@@ -13,4 +13,5 @@
   (lib (name "TS35CA")(type "KiCad")(uri "${KIPRJMOD}/libs/TS35CA.pretty")(options "")(descr ""))
   (lib (name "GD25Q64CWIGR")(type "KiCad")(uri "${KIPRJMOD}/libs/GD25Q64CWIGR.pretty")(options "")(descr ""))
   (lib (name "AP3602AKTR-G1")(type "KiCad")(uri "${KIPRJMOD}/libs/AP3602AKTR-G1.pretty")(options "")(descr ""))
+  (lib (name "XL-4020RGBC-2812B")(type "KiCad")(uri "${KIPRJMOD}/libs/XL-4020RGBC-2812B.pretty")(options "")(descr ""))
 )
