@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Untitled"
+	(property "Value" "Touch_Surface_12_pad"
 		(at -17.6 1.8 0)
 		(unlocked yes)
 		(layer "F.Fab")

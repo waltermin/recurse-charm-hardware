@@ -1210,7 +1210,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom_syms:+3V3_G1"
+		(symbol "custom_syms:+3V3_G2"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1231,7 +1231,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3_G1"
+			(property "Value" "+3V3_G2"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1257,7 +1257,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3_G1\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3_G2\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1275,7 +1275,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_G1_0_1"
+			(symbol "+3V3_G2_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1313,7 +1313,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_G1_1_1"
+			(symbol "+3V3_G2_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2081,7 +2081,7 @@
 		)
 		(uuid "f678482c-4b97-4c52-9f02-e5250100eb04")
 	)
-	(global_label "SDA_G1"
+	(global_label "SDA_G2"
 		(shape input)
 		(at 162.56 66.04 0)
 		(fields_autoplaced yes)
@@ -2147,7 +2147,7 @@
 			)
 		)
 	)
-	(global_label "SCL_G1"
+	(global_label "SCL_G2"
 		(shape input)
 		(at 71.12 63.5 180)
 		(fields_autoplaced yes)
@@ -2169,7 +2169,7 @@
 			)
 		)
 	)
-	(global_label "SCL_G1"
+	(global_label "SCL_G2"
 		(shape input)
 		(at 71.12 120.65 180)
 		(fields_autoplaced yes)
@@ -2235,7 +2235,7 @@
 			)
 		)
 	)
-	(global_label "SDA_G1"
+	(global_label "SDA_G2"
 		(shape input)
 		(at 162.56 123.19 0)
 		(fields_autoplaced yes)
@@ -2972,72 +2972,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_syms:+3V3_G1")
-		(at 59.69 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "316a8dfe-fb55-42c7-917d-735a4b0a26c9")
-		(property "Reference" "#PWR080"
-			(at 59.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_G1"
-			(at 59.69 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3_G1\""
-			(at 59.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3375061a-7819-40ab-9845-c33e96ea58db")
-		)
-		(instances
-			(project ""
-				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/7b6f6d0f-0137-41ad-b85b-11085abf19c4"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 48.26 66.04 0)
 		(unit 1)
@@ -3065,7 +2999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 66.04 0)
 			(effects
 				(font
@@ -3084,6 +3018,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C12530"
 			(at 48.26 66.04 0)
 			(effects
 				(font
@@ -3277,7 +3220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.83 123.19 0)
 			(effects
 				(font
@@ -3296,6 +3239,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 36.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 36.83 123.19 0)
 			(effects
 				(font
@@ -3713,72 +3665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_syms:+3V3_G1")
-		(at 59.69 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72d11ddf-9fc6-41b7-91e5-bf4c78d78ccd")
-		(property "Reference" "#PWR089"
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_G1"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3_G1\""
-			(at 59.69 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4445271-e190-4e49-99d0-34448df84f13")
-		)
-		(instances
-			(project "rc_keychain"
-				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/7b6f6d0f-0137-41ad-b85b-11085abf19c4"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
 		(at 227.33 133.35 0)
 		(unit 1)
@@ -3873,6 +3759,72 @@
 			(project "rc_keychain"
 				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/7b6f6d0f-0137-41ad-b85b-11085abf19c4"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_syms:+3V3_G2")
+		(at 71.12 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8361f17f-853f-4a9d-beaa-5346069f3aca")
+		(property "Reference" "#PWR057"
+			(at 74.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_G2"
+			(at 68.58 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_G2\""
+			(at 71.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c54c32-8e18-46e3-8858-b138329253cd")
+		)
+		(instances
+			(project ""
+				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/7b6f6d0f-0137-41ad-b85b-11085abf19c4"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4238,16 +4190,17 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_syms:+3V3_G1")
-		(at 71.12 123.19 90)
+		(lib_id "custom_syms:+3V3_G2")
+		(at 59.69 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a8c72b42-1bbf-4f8f-b309-f9b0a8eb2fc5")
-		(property "Reference" "#PWR057"
-			(at 74.93 123.19 0)
+		(fields_autoplaced yes)
+		(uuid "a670d6a6-b3c1-4da6-aeba-8a976f5f7292")
+		(property "Reference" "#PWR080"
+			(at 59.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,17 +4208,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_G1"
-			(at 68.326 122.682 90)
+		(property "Value" "+3V3_G2"
+			(at 59.69 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 123.19 0)
+			(at 59.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 123.19 0)
+			(at 59.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,8 +4234,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3_G1\""
-			(at 71.12 123.19 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_G2\""
+			(at 59.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,12 +4244,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd7fc675-d374-4284-b479-fe8d25edc303")
+			(uuid "c8507558-de45-4cc5-b47c-bdae8fbd7f3e")
 		)
 		(instances
 			(project ""
 				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/7b6f6d0f-0137-41ad-b85b-11085abf19c4"
-					(reference "#PWR057")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5268,7 +5220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 123.19 0)
 			(effects
 				(font
@@ -5287,6 +5239,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C12530"
 			(at 48.26 123.19 0)
 			(effects
 				(font
@@ -5338,7 +5299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.83 66.04 0)
 			(effects
 				(font
@@ -5357,6 +5318,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 36.83 66.04 0)
 			(effects
 				(font
@@ -5654,6 +5624,72 @@
 			(project ""
 				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/7b6f6d0f-0137-41ad-b85b-11085abf19c4"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_syms:+3V3_G2")
+		(at 59.69 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f588a3f2-07fa-49fa-9107-e1b89dc02840")
+		(property "Reference" "#PWR089"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_G2"
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_G2\""
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0437f08-a7f4-4f1f-bb29-46443795b313")
+		)
+		(instances
+			(project ""
+				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/7b6f6d0f-0137-41ad-b85b-11085abf19c4"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
