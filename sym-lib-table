@@ -19,4 +19,6 @@
   (lib (name "CR95HF-VMD5T")(type "KiCad")(uri "${KIPRJMOD}/libs/CR95HF-VMD5T.kicad_sym")(options "")(descr ""))
   (lib (name "ST25R3916B-AQET")(type "KiCad")(uri "${KIPRJMOD}/libs/ST25R3916B-AQET.kicad_sym")(options "")(descr ""))
   (lib (name "DRV2603RUNT")(type "KiCad")(uri "${KIPRJMOD}/libs/DRV2603RUNT.kicad_sym")(options "")(descr ""))
+  (lib (name "TYPE-C-16PIN-2MD-073")(type "KiCad")(uri "${KIPRJMOD}/libs/TYPE-C-16PIN-2MD-073.kicad_sym")(options "")(descr ""))
+  (lib (name "CAP1208-1-A4-TR")(type "KiCad")(uri "${KIPRJMOD}/libs/CAP1208-1-A4-TR.kicad_sym")(options "")(descr ""))
 )
