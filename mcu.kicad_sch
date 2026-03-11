@@ -6376,7 +6376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -6431,6 +6431,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25900"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -9354,7 +9363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.67 101.6 0)
 			(effects
 				(font
@@ -9409,6 +9418,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25900"
 			(at 153.67 101.6 0)
 			(effects
 				(font

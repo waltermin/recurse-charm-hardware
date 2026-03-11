@@ -2517,7 +2517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -2572,6 +2572,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 101.6 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
 			(at 101.6 111.76 90)
 			(effects
 				(font
