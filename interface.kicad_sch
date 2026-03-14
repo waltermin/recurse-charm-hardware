@@ -30,7 +30,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "CON_5034801200_MOL"
+			(property "Footprint" "5034801200:CON_5034801200_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -51,6 +51,51 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C587969"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CREATOR" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VERIFIER" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -648,7 +693,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -666,7 +711,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -684,7 +729,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -702,7 +747,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -720,7 +765,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -738,7 +783,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -756,7 +801,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -774,7 +819,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -792,7 +837,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -810,7 +855,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -828,7 +873,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,7 +891,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4418,7 +4463,7 @@
 	)
 	(text "Display: GY64128-03-C12"
 		(exclude_from_sim no)
-		(at 131.572 77.47 0)
+		(at 131.064 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4435,6 +4480,16 @@
 			)
 		)
 		(uuid "976fba47-1cf0-4fae-bc85-a734727b4405")
+	)
+	(text "Note: pins are mirrored, display is\nmounted with the cable facing right"
+		(exclude_from_sim no)
+		(at 132.08 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b22840c6-94d6-42b9-939e-e9caeeed17fd")
 	)
 	(text "Must be >=16V"
 		(exclude_from_sim no)
@@ -4549,12 +4604,6 @@
 		(uuid "d0a1b97c-1db8-42e0-93fe-ca3e6c31bf57")
 	)
 	(junction
-		(at 195.58 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d11fc67d-b6d3-45b5-8590-b7acd84edbee")
-	)
-	(junction
 		(at 248.92 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4571,6 +4620,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff232393-5219-4fb4-abf8-e59274d23945")
+	)
+	(no_connect
+		(at 198.12 48.26)
+		(uuid "089e17f9-4799-43a2-bb59-e6bb26063df5")
 	)
 	(no_connect
 		(at 194.31 90.17)
@@ -4729,16 +4782,6 @@
 			(type default)
 		)
 		(uuid "2ec6c12b-a912-4eb5-b746-94867b0b76e9")
-	)
-	(wire
-		(pts
-			(xy 195.58 48.26) (xy 198.12 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ade8ef-bc0f-4032-b739-19e135361b3f")
 	)
 	(wire
 		(pts
@@ -4939,16 +4982,6 @@
 			(type default)
 		)
 		(uuid "64ed5b78-baa4-4783-8dde-cfa78c9e7e4f")
-	)
-	(wire
-		(pts
-			(xy 195.58 50.8) (xy 195.58 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b50dbb9-3210-469a-b689-591a87b673e9")
 	)
 	(wire
 		(pts
@@ -5699,6 +5732,28 @@
 		(uuid "c2d1a80f-32b7-43c6-aad8-25462f59c869")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.8915 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HAPTIC_EN"
+		(shape input)
+		(at 53.34 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2d0b39e-1411-4b00-a077-980107b500c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.3762 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7059,7 +7114,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 154.94 270)
+		(at 238.76 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7067,7 +7122,7 @@
 		(dnp no)
 		(uuid "3ab7dbe0-9f35-4622-afdc-255f47a1601e")
 		(property "Reference" "#PWR092"
-			(at 232.41 154.94 0)
+			(at 232.41 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7131,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.966 154.94 90)
+			(at 235.966 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 154.94 0)
+			(at 238.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 154.94 0)
+			(at 238.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 154.94 0)
+			(at 238.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,7 +7956,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 238.76 149.86 90)
+		(at 238.76 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7909,7 +7964,7 @@
 		(dnp no)
 		(uuid "5aff20eb-fb7d-4a46-8634-54a91baa8b1a")
 		(property "Reference" "#PWR091"
-			(at 242.57 149.86 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +7973,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 235.966 149.86 90)
+			(at 235.966 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +7982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 149.86 0)
+			(at 238.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,7 +7991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 149.86 0)
+			(at 238.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +8000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 238.76 149.86 0)
+			(at 238.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8421,72 +8476,6 @@
 			(project ""
 				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/24c06676-89c1-498c-8350-9d02668ef39e"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 53.34 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73e69ae5-2cb9-4ec2-a2bb-44878dad328b")
-		(property "Reference" "#PWR066"
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 50.546 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 53.34 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e111b78-743e-42e8-a405-1c67c02c7207")
-		)
-		(instances
-			(project ""
-				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/24c06676-89c1-498c-8350-9d02668ef39e"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)

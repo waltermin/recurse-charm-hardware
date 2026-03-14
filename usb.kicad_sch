@@ -1244,131 +1244,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(wire
 		(pts
@@ -1389,6 +1264,16 @@
 			(type default)
 		)
 		(uuid "123c6ddc-70ec-4d5a-a3b8-1a471246a8ee")
+	)
+	(wire
+		(pts
+			(xy 181.61 78.74) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e58c2f2-f8df-4fea-81cc-5a13fd830e85")
 	)
 	(wire
 		(pts
@@ -1469,6 +1354,16 @@
 			(type default)
 		)
 		(uuid "8d796454-2293-4845-8c31-40a7f315c387")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c86ab48-fbfb-4546-b05b-f3db819bf58b")
 	)
 	(wire
 		(pts
@@ -1630,7 +1525,7 @@
 		)
 		(uuid "ee17cd52-e94f-49c7-a69b-2cf354718a3d")
 	)
-	(label "USB_IN_DM"
+	(label "USB_IN_DN"
 		(at 167.64 88.9 0)
 		(effects
 			(font
@@ -1662,7 +1557,7 @@
 			)
 		)
 	)
-	(global_label "USB_DM"
+	(global_label "USB_DN"
 		(shape input)
 		(at 212.09 90.17 180)
 		(fields_autoplaced yes)
@@ -1674,7 +1569,7 @@
 		)
 		(uuid "2eec4edb-c176-4118-85fe-a028c11c3a81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.6058 90.17 0)
+			(at 201.7267 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,6 +1597,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_RAW"
+		(shape input)
+		(at 181.61 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66896aa3-01ba-4d1e-9b06-346409d475cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9486 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1772,7 +1689,7 @@
 			)
 		)
 	)
-	(global_label "USB_DM"
+	(global_label "USB_DN"
 		(shape input)
 		(at 189.23 88.9 0)
 		(fields_autoplaced yes)
@@ -1784,7 +1701,7 @@
 		)
 		(uuid "d0ed40e2-16e3-4a1c-ba11-b61adb839afb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.7142 88.9 0)
+			(at 199.5933 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,72 +2277,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 184.15 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54df49cc-edb9-42c6-a6c0-d6aa09227c75")
-		(property "Reference" "#PWR048"
-			(at 184.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 184.15 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "288de05e-fe50-4a51-8036-6a5cfa1a681a")
-		)
-		(instances
-			(project "rc_keychain"
-				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/69f5d0af-289d-4671-84fe-e5e630f97c44"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 99.06 0)
 		(unit 1)
@@ -2623,7 +2474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_DM"
+		(property "Value" "USB_DN"
 			(at 217.17 91.4399 90)
 			(effects
 				(font
