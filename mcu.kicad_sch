@@ -4025,131 +4025,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom_syms:+3V3_G2"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3_G2"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3_G2\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_G2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_G2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -4502,12 +4377,6 @@
 		(uuid "9b1e1e78-8cca-42b8-87de-ef62b6cde2f7")
 	)
 	(junction
-		(at 152.4 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebe1a49f-8e84-4710-b6e3-ad2f558afb9f")
-	)
-	(junction
 		(at 148.59 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4593,16 +4462,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 152.4 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "235e39a0-359c-4e3e-a24f-de72f7433aa4")
-	)
-	(wire
-		(pts
 			(xy 166.37 106.68) (xy 168.91 106.68)
 		)
 		(stroke
@@ -4620,16 +4479,6 @@
 			(type default)
 		)
 		(uuid "27cbe24b-8a89-43d0-a183-478f34c96d93")
-	)
-	(wire
-		(pts
-			(xy 158.75 76.2) (xy 163.83 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e7d9de-9542-4735-b8e2-d9b3c6f1b642")
 	)
 	(wire
 		(pts
@@ -4773,16 +4622,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 78.74) (xy 154.94 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "703a4cd3-49be-452c-8f42-cc669057349a")
-	)
-	(wire
-		(pts
 			(xy 100.33 139.7) (xy 106.68 139.7)
 		)
 		(stroke
@@ -4923,16 +4762,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 76.2) (xy 152.4 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc98a69c-9614-4c32-960e-54ff36d3e9ae")
-	)
-	(wire
-		(pts
 			(xy 256.54 111.76) (xy 252.73 111.76)
 		)
 		(stroke
@@ -4950,16 +4779,6 @@
 			(type default)
 		)
 		(uuid "f0555ab1-62c8-4e4b-86fa-3b23835ce897")
-	)
-	(wire
-		(pts
-			(xy 137.16 78.74) (xy 152.4 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc165d67-70d0-4aca-b52f-f52ec704d936")
 	)
 	(wire
 		(pts
@@ -5075,6 +4894,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TOUCH_INT"
+		(shape input)
+		(at 137.16 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "262624ea-8645-44be-bbfb-43a2a2fa4736")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.2448 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5849,7 +5690,7 @@
 			)
 		)
 	)
-	(global_label "DBG_B"
+	(global_label "DBG_C"
 		(shape input)
 		(at 46.99 124.46 180)
 		(fields_autoplaced yes)
@@ -6236,28 +6077,6 @@
 		(uuid "e47bc7fc-3102-45bd-8974-8d33351bcc36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.3419 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TOUCH_INT"
-		(shape input)
-		(at 154.94 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e5f65a51-f6f3-4be7-b7e8-bb0330de37f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.0248 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,71 +8228,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_syms:+3V3_G2")
-		(at 163.83 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84049bc3-4540-4bb5-a79f-257e45a382c5")
-		(property "Reference" "#PWR09"
-			(at 163.83 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_G2"
-			(at 163.83 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3_G2\""
-			(at 163.83 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fd12c06-41e2-43ea-99fa-1dd669cafee5")
-		)
-		(instances
-			(project ""
-				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/c4c0fb03-7c4b-4d55-99ac-6edbef8e602c"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 46.99 100.33 270)
 		(unit 1)
@@ -10074,6 +9828,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10343,118 +10098,6 @@
 			(project ""
 				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/c4c0fb03-7c4b-4d55-99ac-6edbef8e602c"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 156.21 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6269e7f-d720-4f93-a519-f839e09feb15")
-		(property "Reference" "R3"
-			(at 156.21 72.644 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 156.21 74.422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 156.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 156.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25741"
-			(at 156.21 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 156.21 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 156.21 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 156.21 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 156.21 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dcfbba0e-1d08-4508-ae89-a4c1b9c0fe64")
-		)
-		(pin "1"
-			(uuid "8485750e-ea5d-4335-a797-a2303f7b0eed")
-		)
-		(instances
-			(project ""
-				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/c4c0fb03-7c4b-4d55-99ac-6edbef8e602c"
-					(reference "R3")
 					(unit 1)
 				)
 			)

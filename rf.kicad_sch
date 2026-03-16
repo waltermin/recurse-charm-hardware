@@ -4670,7 +4670,7 @@
 		)
 		(uuid "af833449-ec00-4ec7-9ff0-96201ce8f450")
 	)
-	(label "NFC_DI_IN"
+	(label "NFC_3V3_IN"
 		(at 254 22.86 180)
 		(effects
 			(font
@@ -4680,7 +4680,7 @@
 		)
 		(uuid "b35e456d-0e80-45df-aecc-52712c33a7ca")
 	)
-	(label "RF_DAT_IN"
+	(label "RFID_DAT_IN"
 		(at 92.71 57.15 180)
 		(effects
 			(font

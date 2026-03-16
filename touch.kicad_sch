@@ -1509,6 +1509,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 125.73) (xy 57.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01576cfe-2486-4193-954e-8390281fc7dc")
+	)
+	(wire
+		(pts
 			(xy 185.42 129.54) (xy 189.23 129.54)
 		)
 		(stroke
@@ -1516,6 +1526,16 @@
 			(type default)
 		)
 		(uuid "029e2c02-bd8d-4c94-bae0-4496673b15e5")
+	)
+	(wire
+		(pts
+			(xy 60.96 123.19) (xy 60.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b50e721-91ba-4f52-a1a1-06d88ba4e657")
 	)
 	(wire
 		(pts
@@ -1686,6 +1706,16 @@
 			(type default)
 		)
 		(uuid "40d411b4-aa96-4cf9-9f45-5cb9b52c5909")
+	)
+	(wire
+		(pts
+			(xy 60.96 123.19) (xy 72.39 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4413d754-1ab6-477c-9d15-de3630297b67")
 	)
 	(wire
 		(pts
@@ -1866,6 +1896,16 @@
 			(type default)
 		)
 		(uuid "8ed0317f-b1a7-48ac-bdd8-303a9e5c0a9d")
+	)
+	(wire
+		(pts
+			(xy 35.56 125.73) (xy 52.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90475ed3-e20b-4966-86ab-1e6981035e0f")
 	)
 	(wire
 		(pts
@@ -2178,6 +2218,16 @@
 		(uuid "fe0fd1c6-5ae2-40e7-9424-34a3210f0b11")
 	)
 	(label "+3V3_G2_IN"
+		(at 72.39 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0979705d-6de4-42c1-97d1-464104f80682")
+	)
+	(label "+3V3_G2_IN"
 		(at 99.06 72.39 0)
 		(effects
 			(font
@@ -2186,6 +2236,16 @@
 			(justify left bottom)
 		)
 		(uuid "26431af9-9810-4be9-a1e8-f7d65612cd89")
+	)
+	(label "TOUCH_INT_IN"
+		(at 35.56 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4beb88a5-bc4c-4c54-adcc-439991fd6500")
 	)
 	(label "TOUCH_INT_IN"
 		(at 200.66 54.61 180)
@@ -4191,6 +4251,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 54.61 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6269e7f-d720-4f93-a519-f839e09feb15")
+		(property "Reference" "R3"
+			(at 54.61 122.174 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 54.61 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 54.61 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" ""
+			(at 54.61 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 54.61 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 54.61 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 54.61 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dcfbba0e-1d08-4508-ae89-a4c1b9c0fe64")
+		)
+		(pin "1"
+			(uuid "8485750e-ea5d-4335-a797-a2303f7b0eed")
+		)
+		(instances
+			(project "rc_keychain"
+				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/7b6f6d0f-0137-41ad-b85b-11085abf19c4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 105.41 121.92 0)
 		(unit 1)
@@ -4259,16 +4431,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 194.31 134.62 0)
+		(at 194.31 137.16 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f55d20da-a508-415c-bc40-bd02a2bdad58")
 		(property "Reference" "J4"
-			(at 196.85 134.6199 0)
+			(at 196.85 137.1601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4449,7 @@
 			)
 		)
 		(property "Value" "Touch_Surface_Bottom"
-			(at 196.85 137.1599 0)
+			(at 196.85 134.6201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4458,7 @@
 			)
 		)
 		(property "Footprint" "custom_footprints:Touch_Surface_8_Pad"
-			(at 194.31 134.62 0)
+			(at 194.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 134.62 0)
+			(at 194.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4476,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 194.31 134.62 0)
+			(at 194.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,210 @@
+(version 1)
+# Custom Design Rules (DRC) for KiCad 7.0+ (Stored in '<project>.kicad_dru' file).
+#
+# Matching JLCPCB Standard PCB/PCBA capabilities (March 2026):
+# https://jlcpcb.com/capabilities/pcb-capabilities
+#
+# Assumes: 1oz outer copper, 0.5oz inner copper, standard process.
+# For 2oz copper, track width/spacing minimums increase - adjust accordingly.
+
+# ============================================================================
+# TRACES - Width and Spacing
+# ============================================================================
+
+# PDF p9: 1- and 2-layer 1oz: 0.10/0.10mm (4/4 mil)
+(rule "Track width, outer layer (1oz copper)"
+	(layer outer)
+	(condition "A.Type == 'track'")
+	(constraint track_width (min 0.10mm))
+)
+
+(rule "Track spacing, outer layer (1oz copper)"
+	(layer outer)
+	(condition "A.Type == 'track' && B.Type == 'track'")
+	(constraint clearance (min 0.10mm))
+)
+
+# PDF p9: Multilayer 1oz: 0.09/0.09mm (3.5/3.5 mil). 3 mil acceptable in BGA fan-outs.
+(rule "Track width, inner layer (1oz copper)"
+	(layer inner)
+	(condition "A.Type == 'track'")
+	(constraint track_width (min 0.09mm))
+)
+
+(rule "Track spacing, inner layer (1oz copper)"
+	(layer inner)
+	(condition "A.Type == 'track' && B.Type == 'track'")
+	(constraint clearance (min 0.09mm))
+)
+
+# PDF p12: Same-net track spacing: 0.25mm
+# (Enforced via net class or board setup, not easily expressible in custom DRC
+#  without matching same-net tracks specifically. Noted here for reference.)
+
+# ============================================================================
+# CLEARANCES - Pad / Via / Hole to Track
+# ============================================================================
+
+# PDF p12: Pad to track clearance: 0.1mm (min 0.09mm locally for BGA pads)
+# >>> This was 0.2mm in the old file - the root cause of routing failures <<<
+(rule "Clearance: track to SMD pad"
+	(condition "A.Type == 'pad' && !A.isPlated() && B.Type == 'track' && A.Net != B.Net")
+	(constraint clearance (min 0.1mm))
+)
+
+(rule "Clearance: track to PTH pad"
+	(condition "A.Type == 'pad' && A.isPlated() && B.Type == 'track' && A.Net != B.Net")
+	(constraint clearance (min 0.1mm))
+)
+
+# PDF p13: Via hole to track: 0.2mm (measured from hole edge to track edge)
+(rule "Clearance: via hole to track"
+	(condition "A.Type == 'via' && B.Type == 'track' && A.Net != B.Net")
+	(constraint hole_clearance (min 0.2mm))
+)
+
+# PDF p13: PTH to track: 0.28mm (0.35mm recommended)
+(rule "Clearance: PTH hole to track"
+	(condition "A.Type == 'pad' && A.isPlated() && B.Type == 'track' && A.Net != B.Net")
+	(constraint hole_clearance (min 0.28mm))
+)
+
+# PDF p13: NPTH to track: 0.2mm
+(rule "Clearance: NPTH hole to track"
+	(condition "A.Type == 'pad' && !A.isPlated() && B.Type == 'track'")
+	(constraint hole_clearance (min 0.2mm))
+)
+
+# ============================================================================
+# CLEARANCES - Pad to Pad / Via to Via
+# ============================================================================
+
+# PDF p13: SMD pad to pad clearance (different nets): 0.15mm
+(rule "Clearance: SMD pad to SMD pad"
+	(condition "A.Type == 'pad' && B.Type == 'pad' && !A.isPlated() && !B.isPlated() && A.Net != B.Net")
+	(constraint clearance (min 0.15mm))
+)
+
+# PDF p13 + p7: Plated pad/via clearances
+# Via-to-via and pad-to-pad copper clearance on outer layers
+(rule "Clearance: plated to plated (copper)"
+	(layer outer)
+	(condition "A.isPlated() && B.isPlated() && A.Net != B.Net")
+	(constraint clearance (min 0.127mm))
+)
+
+# ============================================================================
+# CLEARANCES - Hole to Hole
+# ============================================================================
+
+# PDF p7: Via hole-to-hole spacing: 0.2mm (edge to edge)
+(rule "Clearance: via hole to via hole"
+	(condition "A.Type == 'via' && B.Type == 'via'")
+	(constraint hole_to_hole (min 0.2mm))
+)
+
+# PDF p7: Pad hole-to-hole spacing: 0.45mm (edge to edge)
+(rule "Clearance: pad hole to pad hole"
+	(condition "A.Type == 'pad' && B.Type == 'pad' && A.isPlated() && B.isPlated() && A.Net != B.Net")
+	(constraint hole_to_hole (min 0.45mm))
+)
+
+# Same-net holes can be closer (via stitching, etc.)
+(rule "Clearance: hole to hole, same net"
+	(condition "A.isPlated() && B.isPlated() && A.Net == B.Net")
+	(constraint hole_to_hole (min 0.2mm))
+)
+
+# ============================================================================
+# DRILLING - Hole Sizes
+# ============================================================================
+
+# PDF p5: Drill diameter 2-layer/multilayer: 0.15-6.3mm
+(rule "Drill diameter"
+	(constraint hole_size (min 0.15mm) (max 6.3mm))
+)
+
+# PDF p6: Min NPTH: 0.50mm
+(rule "NPTH minimum diameter"
+	(condition "A.Type == 'pad' && !A.isPlated()")
+	(constraint hole_size (min 0.5mm))
+)
+
+# PDF p8: Min castellated hole diameter: 0.5mm
+(rule "Castellated hole diameter"
+	(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'")
+	(constraint hole_size (min 0.5mm))
+)
+
+# ============================================================================
+# ANNULAR RING
+# ============================================================================
+
+# PDF p10: PTH annular ring ≥ 0.20mm
+# Multilayer 1oz absolute minimum: 0.15mm; 2-layer 1oz absolute minimum: 0.18mm
+# Using 0.15mm as the DRC floor (multilayer absolute min).
+# For 2-layer boards, consider raising this to 0.18mm.
+(rule "Annular ring width (PTH and via)"
+	(condition "A.isPlated()")
+	(constraint annular_width (min 0.15mm))
+)
+
+# ============================================================================
+# BGA
+# ============================================================================
+
+# PDF p11: BGA pad diameter ≥ 0.25mm
+# PDF p11: BGA pad to trace clearance ≥ 0.1mm (min 0.09mm for multilayer)
+# The general pad-to-track rule of 0.1mm already covers this.
+# If you need the 0.09mm exception for multilayer BGA fan-out, create a
+# net class for BGA signals and add a rule like:
+#
+# (rule "BGA fan-out clearance (multilayer)"
+#	(layer inner)
+#	(condition "A.Type == 'pad' && B.Type == 'track' && A.Net != B.Net && A.NetClass == 'BGA'")
+#	(constraint clearance (min 0.09mm))
+# )
+
+# ============================================================================
+# SILKSCREEN / LEGEND
+# ============================================================================
+
+# PDF p16: Min line width: 6 mil (0.153mm), min text height: 40 mil (1.0mm)
+(rule "Silkscreen text"
+	(layer "?.Silkscreen")
+	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
+	(constraint text_thickness (min 0.153mm))
+	(constraint text_height (min 1.0mm))
+)
+
+# PDF p17: Pad to silkscreen: 0.15mm
+(rule "Pad to Silkscreen"
+	(layer outer)
+	(condition "A.Type == 'pad' && B.Layer == '?.Silkscreen'")
+	(constraint silk_clearance (min 0.15mm))
+)
+
+# ============================================================================
+# BOARD EDGE CLEARANCE
+# ============================================================================
+
+# PDF p18: Copper clearance from routed board edges: ≥ 0.2mm
+(rule "Edge (routed) to copper clearance"
+	(constraint edge_clearance (min 0.2mm))
+)
+
+# Uncomment for V-cut panels:
+# PDF p18: Copper clearance from V-cut edges: ≥ 0.4mm
+#(rule "Edge (V-cut) to copper clearance"
+#	(constraint edge_clearance (min 0.4mm))
+#)
+
+# ============================================================================
+# INNER LAYER CLEARANCES
+# ============================================================================
+
+# PDF p12: Inner layer via hole to copper clearance: 0.2mm
+# PDF p12: Inner layer PTH pad hole to copper clearance: 0.3mm
+# (These are primarily controlled by zone/pour settings in KiCad,
+#  not easily enforced via custom DRC rules. Noted for reference.
+#  Set your copper zone clearance for inner layers accordingly.)
