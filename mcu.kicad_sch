@@ -10603,7 +10603,7 @@
 				)
 			)
 		)
-		(property "Value" "MKDV1GCL-ABA"
+		(property "Value" "MKDV1GCL-ABF"
 			(at 233.68 115.57 0)
 			(effects
 				(font
@@ -10638,7 +10638,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6152616"
+		(property "LCSC Part" "C51966230"
 			(at 233.68 138.43 0)
 			(effects
 				(font

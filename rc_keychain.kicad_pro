@@ -539,8 +539,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/waltermin/Downloads/charm_devboard_print_20260314/",
-      "pos_files": "",
+      "plot": "fab/gerber/",
+      "pos_files": "fab/gerber/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -734,12 +734,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "U10",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "LCSC Part"
     },
     "connection_grid_size": 50.0,
     "drawing": {
