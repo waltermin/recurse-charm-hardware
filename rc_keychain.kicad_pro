@@ -540,7 +540,7 @@
       "idf": "",
       "netlist": "",
       "plot": "fab/gerber/",
-      "pos_files": "fab/gerber/",
+      "pos_files": "fab/assembly/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -734,12 +734,12 @@
           "show": false
         }
       ],
-      "filter_string": "U10",
+      "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "LCSC Part"
+      "sort_asc": true,
+      "sort_field": "${QUANTITY}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
