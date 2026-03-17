@@ -4403,12 +4403,12 @@
 		(uuid "bea80d27-24bc-427c-8438-3589d420e154")
 	)
 	(no_connect
-		(at 137.16 129.54)
-		(uuid "d45e75aa-f15a-48e1-8ef4-5bf13b60c528")
+		(at 137.16 83.82)
+		(uuid "c590bbdf-3226-4cba-861d-b69b43e049e7")
 	)
 	(no_connect
-		(at 106.68 73.66)
-		(uuid "e7ad1f63-7309-4e00-9014-9f404c339264")
+		(at 137.16 129.54)
+		(uuid "d45e75aa-f15a-48e1-8ef4-5bf13b60c528")
 	)
 	(wire
 		(pts
@@ -5384,22 +5384,22 @@
 	)
 	(global_label "OVP_FAULT"
 		(shape input)
-		(at 137.16 83.82 0)
+		(at 106.68 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "733d4e34-7848-4027-a712-c597ea177829")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.3053 83.82 0)
+			(at 93.5347 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7514,6 +7514,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "705114a7-503d-4a70-ba27-f25b7d484670")
+		(property "Reference" "#PWR04"
+			(at 143.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.208 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbc3816c-8f9e-4fa5-81e7-2fc37c8e5f9a")
+		)
+		(instances
+			(project ""
+				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/c4c0fb03-7c4b-4d55-99ac-6edbef8e602c"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_MCU_SiFli:SF32LB52xUx")
 		(at 121.92 104.14 0)
 		(unit 2)
@@ -9391,72 +9457,6 @@
 			(project ""
 				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/c4c0fb03-7c4b-4d55-99ac-6edbef8e602c"
 					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_syms:+3V3_G1")
-		(at 137.16 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c12d115c-7b68-4d6d-aa0b-849639e487c0")
-		(property "Reference" "#PWR04"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_G1"
-			(at 140.208 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3_G1\""
-			(at 137.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "099e978d-6fcd-4dc0-939f-3101ab096a7e")
-		)
-		(instances
-			(project ""
-				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/c4c0fb03-7c4b-4d55-99ac-6edbef8e602c"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)

@@ -140,12 +140,20 @@
 # ANNULAR RING
 # ============================================================================
 
-# PDF p10: PTH annular ring ≥ 0.20mm
-# Multilayer 1oz absolute minimum: 0.15mm; 2-layer 1oz absolute minimum: 0.18mm
+# PDF p6: Via diameter should be 0.1mm (0.15mm preferred) larger than hole.
+# Annular ring = (diameter - hole) / 2 → min 0.05mm, preferred 0.075mm.
+# Using 0.05mm as the absolute minimum for vias.
+(rule "Annular ring width (via)"
+	(condition "A.Type == 'via'")
+	(constraint annular_width (min 0.05mm))
+)
+
+# PDF p10: PTH pad annular ring ≥ 0.20mm recommended.
+# Multilayer 1oz absolute minimum: 0.15mm; 2-layer 1oz absolute minimum: 0.18mm.
 # Using 0.15mm as the DRC floor (multilayer absolute min).
 # For 2-layer boards, consider raising this to 0.18mm.
-(rule "Annular ring width (PTH and via)"
-	(condition "A.isPlated()")
+(rule "Annular ring width (PTH pad)"
+	(condition "A.Type == 'pad' && A.isPlated()")
 	(constraint annular_width (min 0.15mm))
 )
 
