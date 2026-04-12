@@ -8795,7 +8795,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 53.34 83.82 270)
+		(at 53.34 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8804,21 +8804,21 @@
 		(fields_autoplaced yes)
 		(uuid "6acccf4b-b0c7-4381-80a3-127187a88a80")
 		(property "Reference" "D2"
-			(at 55.88 82.2324 90)
+			(at 55.88 82.8674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "BAT54WS"
-			(at 55.88 84.7724 90)
+			(at 55.88 85.4074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323F"
