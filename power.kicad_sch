@@ -4718,7 +4718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -4745,7 +4745,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23733"
+		(property "LCSC Part" ""
 			(at 195.58 121.92 90)
 			(effects
 				(font
@@ -7644,7 +7644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 123.19 142.24 0)
 			(effects
 				(font
@@ -7671,7 +7671,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23733"
+		(property "LCSC Part" ""
 			(at 123.19 142.24 0)
 			(effects
 				(font
@@ -8039,7 +8039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 190.5 104.14 0)
 			(effects
 				(font
@@ -8349,7 +8349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 190.5 109.22 0)
 			(effects
 				(font
