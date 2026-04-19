@@ -543,7 +543,7 @@
       "plot": "fab/gerber/",
       "pos_files": "fab/assembly/",
       "specctra_dsn": "",
-      "step": "../../../Downloads/rc_keychain.step",
+      "step": "../../../Downloads/rc_charm_pcb_wip_20260419",
       "svg": "",
       "vrml": ""
     },
