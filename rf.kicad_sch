@@ -4566,7 +4566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZT52B3V3"
+		(property "Value" "BZX584C3V3"
 			(at 64.008 124.206 90)
 			(effects
 				(font
@@ -4575,7 +4575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 76.2 123.19 90)
 			(effects
 				(font
@@ -4602,7 +4602,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19077392"
+		(property "LCSC Part" "C19077462"
 			(at 76.2 123.19 90)
 			(effects
 				(font
@@ -6751,7 +6751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -6778,7 +6778,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C21190"
+		(property "LCSC Part" "C11702"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -8604,7 +8604,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54WS"
+		(property "Value" "RB521S30T1G"
 			(at 62.23 91.7574 90)
 			(effects
 				(font
@@ -8613,7 +8613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 59.69 90.17 0)
 			(effects
 				(font
@@ -8640,7 +8640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7502694"
+		(property "LCSC Part" "C145179"
 			(at 59.69 90.17 90)
 			(effects
 				(font
@@ -11190,7 +11190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002T"
 			(at 105.41 97.7899 0)
 			(effects
 				(font
@@ -11199,7 +11199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 104.14 98.425 0)
 			(effects
 				(font
@@ -11229,7 +11229,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C8545"
+		(property "LCSC Part" "C2844731"
 			(at 99.06 96.52 0)
 			(effects
 				(font
