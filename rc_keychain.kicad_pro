@@ -733,9 +733,15 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "d5",
       "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
