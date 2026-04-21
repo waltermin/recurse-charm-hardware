@@ -4022,6 +4022,14 @@
 		(uuid "4b9e8dc7-ba53-4585-bc65-7fae4b13278d")
 	)
 	(no_connect
+		(at 137.16 78.74)
+		(uuid "68bfcec8-0afe-4e54-b8c3-7b7d32dc0d5d")
+	)
+	(no_connect
+		(at 137.16 81.28)
+		(uuid "7b865021-72ce-4532-a52f-39bf148eabae")
+	)
+	(no_connect
 		(at 137.16 132.08)
 		(uuid "960b982a-7889-4dbf-8de4-064afb3e2af9")
 	)
@@ -4032,10 +4040,6 @@
 	(no_connect
 		(at 137.16 134.62)
 		(uuid "bea80d27-24bc-427c-8438-3589d420e154")
-	)
-	(no_connect
-		(at 137.16 83.82)
-		(uuid "c590bbdf-3226-4cba-861d-b69b43e049e7")
 	)
 	(no_connect
 		(at 137.16 129.54)
@@ -4399,7 +4403,7 @@
 	)
 	(global_label "TOUCH_INT"
 		(shape input)
-		(at 137.16 78.74 0)
+		(at 137.16 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4409,7 +4413,7 @@
 		)
 		(uuid "262624ea-8645-44be-bbfb-43a2a2fa4736")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.2448 78.74 0)
+			(at 150.2448 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,28 +4942,6 @@
 		(uuid "735803dd-22dc-4626-bd88-bfda6896450c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.6767 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_EN"
-		(shape input)
-		(at 137.16 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "795c6b98-9fcf-4c72-8e2b-c01bf298b7b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.0394 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

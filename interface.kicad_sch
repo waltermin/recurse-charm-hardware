@@ -4541,7 +4541,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 138.43) (xy 215.9 138.43)
+			(xy 214.63 138.43) (xy 217.17 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4841,7 +4841,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 138.43) (xy 228.6 138.43)
+			(xy 224.79 138.43) (xy 228.6 138.43)
 		)
 		(stroke
 			(width 0)
@@ -10425,7 +10425,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 219.71 138.43 180)
+		(at 220.98 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10433,7 +10433,7 @@
 		(dnp no)
 		(uuid "d312b85a-31fc-42aa-a87a-78d8196c343b")
 		(property "Reference" "D5"
-			(at 221.2975 130.81 0)
+			(at 220.98 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10441,7 +10441,7 @@
 			)
 		)
 		(property "Value" "KT-0805G"
-			(at 221.2975 133.35 0)
+			(at 220.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10449,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 219.71 138.43 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 138.43 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +10467,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 219.71 138.43 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +10476,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 138.43 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +10485,7 @@
 			)
 		)
 		(property "LCSC Part" "C2297"
-			(at 219.71 138.43 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
