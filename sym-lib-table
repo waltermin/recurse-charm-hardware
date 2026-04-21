@@ -22,4 +22,5 @@
   (lib (name "TYPE-C-16PIN-2MD-073")(type "KiCad")(uri "${KIPRJMOD}/libs/TYPE-C-16PIN-2MD-073.kicad_sym")(options "")(descr ""))
   (lib (name "CAP1208-1-A4-TR")(type "KiCad")(uri "${KIPRJMOD}/libs/CAP1208-1-A4-TR.kicad_sym")(options "")(descr ""))
   (lib (name "GD25Q256EWIGR")(type "KiCad")(uri "${KIPRJMOD}/libs/GD25Q256EWIGR.kicad_sym")(options "")(descr ""))
+  (lib (name "HX3x4x2-2P-1")(type "KiCad")(uri "${KIPRJMOD}/libs/HX3x4x2-2P-1.kicad_sym")(options "")(descr ""))
 )
