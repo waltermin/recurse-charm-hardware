@@ -3037,7 +3037,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HX3x4x2-2P-1:HX3X4X2-2P-1.6NTACTILESWITCH"
+		(symbol "HX-B3U-1000P-1:HX-B3U-1000P-1.6N"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3049,7 +3049,7 @@
 					)
 				)
 			)
-			(property "Value" "HX 3X4X2-2P-1.6N TACTILE SWITCH"
+			(property "Value" "HX-B3U-1000P-1.6N"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -3057,7 +3057,7 @@
 					)
 				)
 			)
-			(property "Footprint" "HX3x4x2-2P-1:KEY-SMD_L4.0-W3.0-LS4.9-1"
+			(property "Footprint" "HX-B3U-1000P-1:SW-SMD_2P-L3.0-W2.5-LS4.0"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -3066,7 +3066,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C49234124.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C49234121.pdf"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -3093,7 +3093,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "HX 3x4x2-2P-1.6N TACTILE SWITCH"
+			(property "MPN" "HX-B3U-1000P-1.6N"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -3102,7 +3102,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C49234124"
+			(property "LCSC Part" "C49234121"
 				(at 0 -19.05 0)
 				(effects
 					(font
@@ -3111,10 +3111,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "HX3X4X2-2P-1.6NTACTILESWITCH_0_1"
-				(circle
-					(center -2.03 -1.27)
-					(radius 0.51)
+			(symbol "HX-B3U-1000P-1.6N_0_1"
+				(polyline
+					(pts
+						(xy -2.03 -1.27) (xy -2.54 -1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3125,7 +3126,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.03 0.25) (xy -2.03 -0.76)
+						(xy -1.52 -0.76) (xy 1.52 0)
 					)
 					(stroke
 						(width 0)
@@ -3136,8 +3137,31 @@
 					)
 				)
 				(circle
-					(center 2.03 -1.27)
-					(radius 0.51)
+					(center -1.52 -1.27)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.78 -1.27) (xy 2.54 -1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4611,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 80.01) (xy 189.23 80.01)
+			(xy 185.42 80.01) (xy 189.23 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4901,16 +4925,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 80.01) (xy 173.99 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777e3408-e68d-4a43-ae81-51bc472165c2")
-	)
-	(wire
-		(pts
 			(xy 106.68 143.51) (xy 114.3 143.51)
 		)
 		(stroke
@@ -4918,6 +4932,16 @@
 			(type default)
 		)
 		(uuid "7ebedac4-1a22-4771-8956-acc169583c6d")
+	)
+	(wire
+		(pts
+			(xy 163.83 80.01) (xy 175.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8215e642-309b-4ab9-a841-e6a5de859dce")
 	)
 	(wire
 		(pts
@@ -4931,7 +4955,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 74.93) (xy 165.1 80.01)
+			(xy 163.83 74.93) (xy 163.83 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6696,7 +6720,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 165.1 69.85 0)
+		(at 163.83 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6705,7 +6729,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b0e51f6-c54a-4939-b962-6a8d00d2ef00")
 		(property "Reference" "#PWR082"
-			(at 165.1 73.66 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6738,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 165.1 64.77 0)
+			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 69.85 0)
+			(at 163.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +6755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 69.85 0)
+			(at 163.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 69.85 0)
+			(at 163.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,6 +8127,101 @@
 			(project ""
 				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/24c06676-89c1-498c-8350-9d02668ef39e"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HX-B3U-1000P-1:HX-B3U-1000P-1.6N")
+		(at 180.34 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df5a671-4cdc-49da-bddc-1e320f030e23")
+		(property "Reference" "SW2"
+			(at 180.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX-B3U-1000P-1.6N"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HX-B3U-1000P-1:SW-SMD_2P-L3.0-W2.5-LS4.0"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49234121.pdf"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HX-B3U-1000P-1.6N"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49234121"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb3ce801-a880-4b48-99f1-5a285fe21f3d")
+		)
+		(pin "2"
+			(uuid "e2edec9e-3d1a-4ff9-bef1-3310f573494d")
+		)
+		(instances
+			(project ""
+				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/24c06676-89c1-498c-8350-9d02668ef39e"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10255,7 +10374,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 165.1 72.39 0)
+		(at 163.83 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10264,7 +10383,7 @@
 		(fields_autoplaced yes)
 		(uuid "c906b034-ee71-478e-92bc-219621959a99")
 		(property "Reference" "R17"
-			(at 167.64 71.1199 0)
+			(at 166.37 71.1199 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10273,7 +10392,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 167.64 73.6599 0)
+			(at 166.37 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,7 +10401,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10291,7 +10410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +10419,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,7 +10428,7 @@
 			)
 		)
 		(property "LCSC Part" "C25905"
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10437,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10446,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10455,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10464,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,7 +10473,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10363,7 +10482,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10372,7 +10491,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +10500,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,7 +10509,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +10518,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 165.1 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,101 +11283,6 @@
 			(project ""
 				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/24c06676-89c1-498c-8350-9d02668ef39e"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HX3x4x2-2P-1:HX3X4X2-2P-1.6NTACTILESWITCH")
-		(at 179.07 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5567afe-cbd7-4b68-98e0-88b10867f184")
-		(property "Reference" "SW1"
-			(at 179.07 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HX 3X4X2-2P-1.6N"
-			(at 179.07 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "HX3x4x2-2P-1:KEY-SMD_L4.0-W3.0-LS4.9-1"
-			(at 179.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C49234124.pdf"
-			(at 179.07 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hanxia(韩下)"
-			(at 179.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HX 3x4x2-2P-1.6N TACTILE SWITCH"
-			(at 179.07 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C49234124"
-			(at 179.07 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c2e6d0f-3aa0-4797-9203-82093e43316d")
-		)
-		(pin "1"
-			(uuid "eb8b2aa3-8f88-42d5-9713-dcfd6a0dc57e")
-		)
-		(instances
-			(project ""
-				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/24c06676-89c1-498c-8350-9d02668ef39e"
-					(reference "SW1")
 					(unit 1)
 				)
 			)

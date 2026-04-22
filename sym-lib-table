@@ -23,4 +23,6 @@
   (lib (name "CAP1208-1-A4-TR")(type "KiCad")(uri "${KIPRJMOD}/libs/CAP1208-1-A4-TR.kicad_sym")(options "")(descr ""))
   (lib (name "GD25Q256EWIGR")(type "KiCad")(uri "${KIPRJMOD}/libs/GD25Q256EWIGR.kicad_sym")(options "")(descr ""))
   (lib (name "HX3x4x2-2P-1")(type "KiCad")(uri "${KIPRJMOD}/libs/HX3x4x2-2P-1.kicad_sym")(options "")(descr ""))
+  (lib (name "MPR121QR2")(type "KiCad")(uri "${KIPRJMOD}/libs/MPR121QR2.kicad_sym")(options "")(descr ""))
+  (lib (name "HX-B3U-1000P-1")(type "KiCad")(uri "${KIPRJMOD}/libs/HX-B3U-1000P-1.kicad_sym")(options "")(descr ""))
 )
