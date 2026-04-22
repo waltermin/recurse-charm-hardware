@@ -7297,6 +7297,71 @@
 		)
 	)
 	(symbol
+		(lib_id "custom_syms:+3V3_G2")
+		(at 96.52 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "555ff761-8732-4226-82c1-0e2bb39a99d0")
+		(property "Reference" "#PWR011"
+			(at 96.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_G2"
+			(at 96.52 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_G2\""
+			(at 96.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d1c9154-615e-48ad-8e96-6061e6f68039")
+		)
+		(instances
+			(project ""
+				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/24c06676-89c1-498c-8350-9d02668ef39e"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Motion:LIS3DH")
 		(at 238.76 50.8 0)
 		(unit 1)
@@ -8038,72 +8103,6 @@
 			(project ""
 				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/24c06676-89c1-498c-8350-9d02668ef39e"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_syms:VBAT")
-		(at 96.52 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7480b437-0b66-47c6-8ffe-e36cf2a4a7f7")
-		(property "Reference" "#PWR073"
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 96.52 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBAT\""
-			(at 96.52 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0189e3ad-1055-45b7-ac9c-c8c0184298be")
-		)
-		(instances
-			(project ""
-				(path "/c6cb5a1d-9f97-4766-8582-a9e93ed049e4/24c06676-89c1-498c-8350-9d02668ef39e"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
