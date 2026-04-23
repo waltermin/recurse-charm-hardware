@@ -4721,7 +4721,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 138.43) (xy 217.17 138.43)
+			(xy 209.55 132.08) (xy 212.09 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5021,7 +5021,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 138.43) (xy 228.6 138.43)
+			(xy 219.71 132.08) (xy 223.52 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5131,7 +5131,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 140.97) (xy 236.22 138.43)
+			(xy 231.14 134.62) (xy 231.14 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5351,7 +5351,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 138.43) (xy 233.68 138.43)
+			(xy 231.14 132.08) (xy 228.6 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5541,7 +5541,7 @@
 	)
 	(global_label "LED_DAT"
 		(shape input)
-		(at 214.63 138.43 180)
+		(at 209.55 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5551,7 +5551,7 @@
 		)
 		(uuid "1e124c1d-5cdb-493e-b3c0-e4f9406d998e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.9039 138.43 0)
+			(at 198.8239 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7860,7 +7860,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 231.14 138.43 270)
+		(at 226.06 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7869,7 +7869,7 @@
 		(fields_autoplaced yes)
 		(uuid "65ea77ca-9e2c-4e0b-a4ea-01a057df7cad")
 		(property "Reference" "R1"
-			(at 231.14 133.35 90)
+			(at 226.06 127 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7877,7 +7877,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 231.14 135.89 90)
+			(at 226.06 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +7885,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 231.14 138.43 0)
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +7894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 138.43 0)
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +7903,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 231.14 138.43 0)
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8556,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 140.97 0)
+		(at 231.14 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8565,7 +8565,7 @@
 		(fields_autoplaced yes)
 		(uuid "8456d531-d65b-47e9-939d-bf335bec5768")
 		(property "Reference" "#PWR08"
-			(at 236.22 147.32 0)
+			(at 231.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8574,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 146.05 0)
+			(at 231.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8582,7 +8582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 140.97 0)
+			(at 231.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +8591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 140.97 0)
+			(at 231.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 140.97 0)
+			(at 231.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +10741,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 220.98 138.43 180)
+		(at 215.9 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10749,7 +10749,7 @@
 		(dnp no)
 		(uuid "d312b85a-31fc-42aa-a87a-78d8196c343b")
 		(property "Reference" "D5"
-			(at 220.98 132.334 0)
+			(at 215.9 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10757,7 +10757,7 @@
 			)
 		)
 		(property "Value" "KT-0805G"
-			(at 220.98 134.62 0)
+			(at 215.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10765,7 +10765,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 220.98 138.43 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10774,7 +10774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 138.43 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +10783,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 220.98 138.43 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10792,7 +10792,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 138.43 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10801,7 +10801,7 @@
 			)
 		)
 		(property "LCSC Part" "C2297"
-			(at 220.98 138.43 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)

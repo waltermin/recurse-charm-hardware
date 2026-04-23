@@ -4022,6 +4022,10 @@
 		(uuid "363be95a-2ac2-43bf-89d5-60bcd7011314")
 	)
 	(no_connect
+		(at 106.68 73.66)
+		(uuid "39bbba2b-fe09-42d4-9f52-f646275e4afb")
+	)
+	(no_connect
 		(at 217.17 50.8)
 		(uuid "4b9e8dc7-ba53-4585-bc65-7fae4b13278d")
 	)
@@ -4737,7 +4741,7 @@
 	)
 	(global_label "HAPTIC_PWM"
 		(shape input)
-		(at 106.68 88.9 180)
+		(at 106.68 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4747,7 +4751,7 @@
 		)
 		(uuid "539f1d5e-9f5b-45c7-91ae-6deaf2d86f61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.0229 88.9 0)
+			(at 92.0229 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,28 +4893,6 @@
 			)
 		)
 	)
-	(global_label "OVP_FAULT"
-		(shape input)
-		(at 106.68 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "733d4e34-7848-4027-a712-c597ea177829")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.5347 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NFC_DI"
 		(shape input)
 		(at 137.16 106.68 0)
@@ -5001,7 +4983,7 @@
 	)
 	(global_label "HAPTIC_EN"
 		(shape input)
-		(at 106.68 91.44 180)
+		(at 106.68 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5011,7 +4993,7 @@
 		)
 		(uuid "868e7db9-183e-4ed6-903e-990fe54d2b88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.7162 91.44 0)
+			(at 93.7162 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
