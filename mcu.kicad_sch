@@ -4018,6 +4018,10 @@
 		(uuid "32e0a586-fa8c-4e9a-aaf8-35e53018336e")
 	)
 	(no_connect
+		(at 106.68 76.2)
+		(uuid "363be95a-2ac2-43bf-89d5-60bcd7011314")
+	)
+	(no_connect
 		(at 217.17 50.8)
 		(uuid "4b9e8dc7-ba53-4585-bc65-7fae4b13278d")
 	)
@@ -4700,28 +4704,6 @@
 		(uuid "4c57566a-c9ca-48f9-8fd8-d5ed23cd8f0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 182.072 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OLED_EN"
-		(shape input)
-		(at 106.68 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e15b8c6-4aa4-4f32-9684-3115ae97a54c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.4701 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

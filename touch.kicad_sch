@@ -3297,6 +3297,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C91322"
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9f7030b8-4622-4b5d-bfee-c25f0bd975cc")
 		)
@@ -4140,6 +4149,15 @@
 			)
 		)
 		(property "Description" "12ch Touch Sensor controller, UQFN-20"
+			(at 166.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C91322"
 			(at 166.37 68.58 0)
 			(effects
 				(font
